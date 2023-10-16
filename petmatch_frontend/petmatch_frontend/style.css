@@ -1,0 +1,233 @@
+body{
+    padding: 90px;
+    padding-top: 50px;
+    margin: 0;
+    font-family: 'Jua', sans-serif;
+    background-image: url('componentes/background_petmatch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    user-select: none;
+}
+
+/*botao 'ver mais'*/
+.vmbtn{
+    background-color: white;
+    font-family: 'Jua', sans-serif;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    box-shadow: 0px 2px 2px 0px rgba(199, 199, 199, 0.25);
+    width: 81px;
+    height: 36px;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.vmbtn:hover{
+    cursor: pointer;
+    background-color: rgb(212, 212, 212);
+    transition: 0.2s;
+}
+
+
+/*div principal*/
+.geral{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+
+/*botao 'voltar' */
+.voltar{
+    width:100%;
+}
+.voltabtn{
+    background-color: white;
+    font-family: 'Jua', sans-serif;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    box-shadow: 0px 2px 2px 0px rgba(199, 199, 199, 0.25);
+    width: 81px;
+    height: 36px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color:#FF9340;
+}
+
+
+/*nome do pet*/
+h1{
+    font-size: 40px;
+    color:#FF9340;
+}
+
+/*apresentação do pet*/
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.fotos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.arrow-back, .arrow-forward{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+.arrow-back, .arrow-forward:hover{
+    cursor: pointer;
+}
+.carrossel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.patinhas-carrossel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.patinha2, .patinha3{
+    filter:brightness(0%);
+}
+
+
+
+/*informações do pet*/
+.info{
+    width: 238px;
+    margin-top: 32px;
+}
+.local{
+    display: flex;
+    gap: 12px;
+    color: #808080;
+}
+.tutor{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    white-space: nowrap;
+    color: #808080;
+}
+#diftext{
+    color:#FF9340;
+}
+.tags1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    white-space: nowrap;
+    width: 50%;
+    color: #808080;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    text-align: justify;
+    font-size: 16px;
+}
+
+
+.tags2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 32%;
+    color:#FF9340;
+    margin-bottom: 42px;
+    margin-top: 42px;
+    white-space: nowrap;
+}
+.container-tag{
+    background-color: #FFDEAB;
+    border-radius: 4px;
+    padding: 10px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+/*botoes da parte de baixo*/
+.final-btns1{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#adotar{
+    border: solid 3px #FFBD59;
+    background-color: #FFBD59;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 16px;
+    font-family: 'Jua', sans-serif;
+    color:white;
+    white-space: nowrap;
+}
+#contato{
+    border: solid 3px #FF9340;
+    background-color: #ffbd5900;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 16px;
+    font-family: 'Jua', sans-serif;
+    color:#FF9340;
+    white-space: nowrap;
+}
+button:hover{
+    cursor: pointer;
+    filter: brightness(75%);
+    transition: 0.2s;
+}
+
+.final-btns2{
+    display: flex;
+    width: 15%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+#sim{
+    border: none;
+    background-color: #5FE254;
+    border-radius: 88px;
+    height: 44px;
+    width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nao{
+    border: none;
+    background-color: #E25454;
+    border-radius: 88px;
+    height: 44px;
+    width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
